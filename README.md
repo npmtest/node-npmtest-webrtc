@@ -1,6 +1,6 @@
 # npmtest-webrtc
 
-#### test coverage for  [webrtc (v1.14.1)](https://github.com/henrikjoreteg/webrtc.js)  [![npm package](https://img.shields.io/npm/v/npmtest-webrtc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webrtc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webrtc.svg)](https://travis-ci.org/npmtest/node-npmtest-webrtc)
+#### basic test coverage for  [webrtc (v1.14.1)](https://github.com/henrikjoreteg/webrtc.js)  [![npm package](https://img.shields.io/npm/v/npmtest-webrtc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webrtc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webrtc.svg)](https://travis-ci.org/npmtest/node-npmtest-webrtc)
 
 #### WebRTC abstraction for making it simple to manage multiple peer connections of various types.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-webrtc/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-webrtc/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-webrtc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-webrtc/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webrtc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webrtc/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-webrtc/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-webrtc/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webrtc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webrtc/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-webrtc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-webrtc/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "url": "git+ssh://git@github.com/henrikjoreteg/webrtc.js.git"
     },
     "scripts": {},
-    "version": "1.14.1"
+    "version": "1.14.1",
+    "bin": {}
 }
 ```
 
